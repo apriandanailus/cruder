@@ -1,0 +1,26 @@
+{
+  "name": "pqrs/l5b-crud",
+  "description": "CRUD artisan command for rappasoft/laravel-5-boilerplate",
+  "license": "MIT",
+  "homepage": "https://github.com/pqrs/l5b-crud",
+  "authors": [
+    {
+      "name": "Alvaro Piqueras",
+      "email": "alvaro@pqrs.es"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "pqrs\\L5BCrud\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "pqrs\\L5BCrud\\L5BCrudServiceProvider"
+      ]
+    }
+  }
+}
